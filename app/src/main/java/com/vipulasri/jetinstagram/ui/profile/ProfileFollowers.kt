@@ -30,7 +30,9 @@ fun ProfileFollowers() {
         verticalAlignment = Alignment.CenterVertically
     ) {
         ProfilePicture()
-        Column {
+        Column(
+            modifier = Modifier.padding(10.dp)
+        ) {
             PostAndFollowersRow()
             Row(
                 modifier = Modifier.height(35.dp)
@@ -54,7 +56,7 @@ fun ProfilePicture() {
             .clip(shape)
     ) {
         Text(
-            text = "PU", color = Color.White,
+            text = "YO", color = Color.White,
             fontSize = 25.sp,
             modifier = Modifier.align(Alignment.Center)
         )

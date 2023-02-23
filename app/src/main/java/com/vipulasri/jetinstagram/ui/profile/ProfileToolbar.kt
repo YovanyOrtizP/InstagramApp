@@ -29,7 +29,7 @@ fun ProfileToolbar() {
             modifier = Modifier.icon(),
             contentDescription = ""
         )
-        Text(text = "Putarraca")
+        Text(text = "Yovany Ortiz")
 
         Icon(
             painter = painterResource(R.drawable.ic_more),

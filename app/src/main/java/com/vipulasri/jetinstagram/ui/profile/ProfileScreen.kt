@@ -33,11 +33,3 @@ fun ProfileScreen(names: List<String> = List(15) { "$it" }) {
 
     }
 }
-
-
-//items(items = names) { name ->
-//    StoryImageProfile()
-//}
-//}
-//ProfilePosts()
-//}
